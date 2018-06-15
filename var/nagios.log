@@ -1,0 +1,755 @@
+[1528969692] Nagios 4.3.4 starting... (PID=32313)
+[1528969692] Local time is Thu Jun 14 09:48:12 UTC 2018
+[1528969692] LOG VERSION: 2.0
+[1528969692] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1528969692] qh: core query handler registered
+[1528969692] nerd: Channel hostchecks registered successfully
+[1528969692] nerd: Channel servicechecks registered successfully
+[1528969692] nerd: Channel opathchecks registered successfully
+[1528969692] nerd: Fully initialized and ready to rock!
+[1528969692] wproc: Successfully registered manager as @wproc with query handler
+[1528969692] wproc: Registry request: name=Core Worker 32318;pid=32318
+[1528969692] wproc: Registry request: name=Core Worker 32317;pid=32317
+[1528969692] wproc: Registry request: name=Core Worker 32316;pid=32316
+[1528969692] wproc: Registry request: name=Core Worker 32315;pid=32315
+[1528969693] Successfully launched command file worker with pid 32319
+[1528969805] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 4037 bytes in 0.000 second response time
+[1528969865] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 403 Forbidden - 4037 bytes in 0.000 second response time
+[1528969925] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 4037 bytes in 0.000 second response time
+[1528969954] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1528969985] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 4037 bytes in 0.000 second response time
+[1528970015] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1528970075] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1528970135] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1528970135] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1528970135] wproc: NOTIFY job 4 from worker Core Worker 32315 is a non-check helper but exited with return code 127
+[1528970135] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1528970135] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1528970135] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1528970135] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1528973292] Auto-save of retention data completed successfully.
+[1528973735] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1528973735] wproc: NOTIFY job 32 from worker Core Worker 32318 is a non-check helper but exited with return code 127
+[1528973735] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1528973735] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1528973735] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1528973735] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1528976892] Auto-save of retention data completed successfully.
+[1528976944] Caught SIGTERM, shutting down...
+[1528976944] Successfully shutdown... (PID=32313)
+[1528976944] Event broker module 'NERD' deinitialized successfully.
+[1528976944] Nagios 4.3.4 starting... (PID=1910)
+[1528976944] Local time is Thu Jun 14 11:49:04 UTC 2018
+[1528976944] LOG VERSION: 2.0
+[1528976944] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1528976944] qh: core query handler registered
+[1528976944] nerd: Channel hostchecks registered successfully
+[1528976944] nerd: Channel servicechecks registered successfully
+[1528976944] nerd: Channel opathchecks registered successfully
+[1528976944] nerd: Fully initialized and ready to rock!
+[1528976944] wproc: Successfully registered manager as @wproc with query handler
+[1528976944] wproc: Registry request: name=Core Worker 1915;pid=1915
+[1528976944] wproc: Registry request: name=Core Worker 1914;pid=1914
+[1528976944] wproc: Registry request: name=Core Worker 1913;pid=1913
+[1528976944] wproc: Registry request: name=Core Worker 1912;pid=1912
+[1528976944] Successfully launched command file worker with pid 1916
+[1528977335] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1528977335] wproc: NOTIFY job 3 from worker Core Worker 1915 is a non-check helper but exited with return code 127
+[1528977335] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1528977335] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1528977335] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1528977335] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1528980544] Auto-save of retention data completed successfully.
+[1528980935] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1528980935] wproc: NOTIFY job 30 from worker Core Worker 1914 is a non-check helper but exited with return code 127
+[1528980935] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1528980935] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1528980935] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1528980935] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1528981264] Caught SIGTERM, shutting down...
+[1528981264] Successfully shutdown... (PID=1910)
+[1528981264] Event broker module 'NERD' deinitialized successfully.
+[1528981264] Nagios 4.3.4 starting... (PID=2516)
+[1528981264] Local time is Thu Jun 14 13:01:04 UTC 2018
+[1528981264] LOG VERSION: 2.0
+[1528981264] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1528981264] qh: core query handler registered
+[1528981264] nerd: Channel hostchecks registered successfully
+[1528981264] nerd: Channel servicechecks registered successfully
+[1528981264] nerd: Channel opathchecks registered successfully
+[1528981264] nerd: Fully initialized and ready to rock!
+[1528981264] wproc: Successfully registered manager as @wproc with query handler
+[1528981264] wproc: Registry request: name=Core Worker 2521;pid=2521
+[1528981264] wproc: Registry request: name=Core Worker 2520;pid=2520
+[1528981264] wproc: Registry request: name=Core Worker 2519;pid=2519
+[1528981264] wproc: Registry request: name=Core Worker 2518;pid=2518
+[1528981264] Successfully launched command file worker with pid 2522
+[1528984535] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1528984535] wproc: NOTIFY job 24 from worker Core Worker 2520 is a non-check helper but exited with return code 127
+[1528984535] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1528984535] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1528984535] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1528984535] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1528984864] Auto-save of retention data completed successfully.
+[1528988135] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1528988135] wproc: NOTIFY job 51 from worker Core Worker 2519 is a non-check helper but exited with return code 127
+[1528988135] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1528988135] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1528988135] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1528988135] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1528988463] Auto-save of retention data completed successfully.
+[1528990757] Caught SIGTERM, shutting down...
+[1528990757] Successfully shutdown... (PID=2516)
+[1528990757] Event broker module 'NERD' deinitialized successfully.
+[1528990757] Nagios 4.3.4 starting... (PID=3527)
+[1528990757] Local time is Thu Jun 14 15:39:17 UTC 2018
+[1528990757] LOG VERSION: 2.0
+[1528990757] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1528990757] qh: core query handler registered
+[1528990757] nerd: Channel hostchecks registered successfully
+[1528990757] nerd: Channel servicechecks registered successfully
+[1528990757] nerd: Channel opathchecks registered successfully
+[1528990757] nerd: Fully initialized and ready to rock!
+[1528990757] wproc: Successfully registered manager as @wproc with query handler
+[1528990757] wproc: Registry request: name=Core Worker 3532;pid=3532
+[1528990757] wproc: Registry request: name=Core Worker 3531;pid=3531
+[1528990757] wproc: Registry request: name=Core Worker 3530;pid=3530
+[1528990757] wproc: Registry request: name=Core Worker 3529;pid=3529
+[1528990757] Successfully launched command file worker with pid 3533
+[1528990809] Caught SIGTERM, shutting down...
+[1528990809] Successfully shutdown... (PID=3527)
+[1528990809] Event broker module 'NERD' deinitialized successfully.
+[1528990809] Nagios 4.3.4 starting... (PID=3607)
+[1528990809] Local time is Thu Jun 14 15:40:09 UTC 2018
+[1528990809] LOG VERSION: 2.0
+[1528990809] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1528990809] qh: core query handler registered
+[1528990809] nerd: Channel hostchecks registered successfully
+[1528990809] nerd: Channel servicechecks registered successfully
+[1528990809] nerd: Channel opathchecks registered successfully
+[1528990809] nerd: Fully initialized and ready to rock!
+[1528990809] wproc: Successfully registered manager as @wproc with query handler
+[1528990809] wproc: Registry request: name=Core Worker 3612;pid=3612
+[1528990809] wproc: Registry request: name=Core Worker 3611;pid=3611
+[1528990809] wproc: Registry request: name=Core Worker 3610;pid=3610
+[1528990809] wproc: Registry request: name=Core Worker 3609;pid=3609
+[1528990809] Successfully launched command file worker with pid 3613
+[1528990986] Caught SIGTERM, shutting down...
+[1528990986] Successfully shutdown... (PID=3607)
+[1528990986] Event broker module 'NERD' deinitialized successfully.
+[1528990986] Nagios 4.3.4 starting... (PID=3708)
+[1528990986] Local time is Thu Jun 14 15:43:06 UTC 2018
+[1528990986] LOG VERSION: 2.0
+[1528990986] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1528990986] qh: core query handler registered
+[1528990986] nerd: Channel hostchecks registered successfully
+[1528990986] nerd: Channel servicechecks registered successfully
+[1528990986] nerd: Channel opathchecks registered successfully
+[1528990986] nerd: Fully initialized and ready to rock!
+[1528990986] wproc: Successfully registered manager as @wproc with query handler
+[1528990986] wproc: Registry request: name=Core Worker 3713;pid=3713
+[1528990986] wproc: Registry request: name=Core Worker 3712;pid=3712
+[1528990986] wproc: Registry request: name=Core Worker 3711;pid=3711
+[1528990986] wproc: Registry request: name=Core Worker 3710;pid=3710
+[1528990986] Successfully launched command file worker with pid 3714
+[1528991082] Caught SIGTERM, shutting down...
+[1528991082] Successfully shutdown... (PID=3708)
+[1528991082] Event broker module 'NERD' deinitialized successfully.
+[1528991082] Nagios 4.3.4 starting... (PID=3812)
+[1528991082] Local time is Thu Jun 14 15:44:42 UTC 2018
+[1528991082] LOG VERSION: 2.0
+[1528991082] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1528991082] qh: core query handler registered
+[1528991082] nerd: Channel hostchecks registered successfully
+[1528991082] nerd: Channel servicechecks registered successfully
+[1528991082] nerd: Channel opathchecks registered successfully
+[1528991082] nerd: Fully initialized and ready to rock!
+[1528991082] wproc: Successfully registered manager as @wproc with query handler
+[1528991082] wproc: Registry request: name=Core Worker 3817;pid=3817
+[1528991082] wproc: Registry request: name=Core Worker 3816;pid=3816
+[1528991082] wproc: Registry request: name=Core Worker 3815;pid=3815
+[1528991082] wproc: Registry request: name=Core Worker 3814;pid=3814
+[1528991082] Successfully launched command file worker with pid 3818
+[1528991220] Caught SIGTERM, shutting down...
+[1528991220] Successfully shutdown... (PID=3812)
+[1528991220] Event broker module 'NERD' deinitialized successfully.
+[1528991221] Nagios 4.3.4 starting... (PID=3948)
+[1528991221] Local time is Thu Jun 14 15:47:01 UTC 2018
+[1528991221] LOG VERSION: 2.0
+[1528991221] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1528991221] qh: core query handler registered
+[1528991221] nerd: Channel hostchecks registered successfully
+[1528991221] nerd: Channel servicechecks registered successfully
+[1528991221] nerd: Channel opathchecks registered successfully
+[1528991221] nerd: Fully initialized and ready to rock!
+[1528991221] wproc: Successfully registered manager as @wproc with query handler
+[1528991221] wproc: Registry request: name=Core Worker 3953;pid=3953
+[1528991221] wproc: Registry request: name=Core Worker 3952;pid=3952
+[1528991221] wproc: Registry request: name=Core Worker 3951;pid=3951
+[1528991221] wproc: Registry request: name=Core Worker 3950;pid=3950
+[1528991221] Successfully launched command file worker with pid 3954
+[1528994820] Auto-save of retention data completed successfully.
+[1528995254] Caught SIGTERM, shutting down...
+[1528995254] Successfully shutdown... (PID=3948)
+[1528995254] Event broker module 'NERD' deinitialized successfully.
+[1529034506] Nagios 4.3.4 starting... (PID=2623)
+[1529034506] Local time is Fri Jun 15 03:48:26 UTC 2018
+[1529034506] LOG VERSION: 2.0
+[1529034506] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529034506] qh: core query handler registered
+[1529034506] nerd: Channel hostchecks registered successfully
+[1529034506] nerd: Channel servicechecks registered successfully
+[1529034506] nerd: Channel opathchecks registered successfully
+[1529034506] nerd: Fully initialized and ready to rock!
+[1529034506] wproc: Successfully registered manager as @wproc with query handler
+[1529034506] wproc: Registry request: name=Core Worker 2629;pid=2629
+[1529034506] wproc: Registry request: name=Core Worker 2628;pid=2628
+[1529034506] wproc: Registry request: name=Core Worker 2627;pid=2627
+[1529034506] wproc: Registry request: name=Core Worker 2626;pid=2626
+[1529034506] Successfully launched command file worker with pid 2636
+[1529035520] Caught SIGTERM, shutting down...
+[1529035520] Successfully shutdown... (PID=2623)
+[1529035520] Event broker module 'NERD' deinitialized successfully.
+[1529035520] Nagios 4.3.4 starting... (PID=2874)
+[1529035520] Local time is Fri Jun 15 04:05:20 UTC 2018
+[1529035520] LOG VERSION: 2.0
+[1529035520] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529035520] qh: core query handler registered
+[1529035520] nerd: Channel hostchecks registered successfully
+[1529035520] nerd: Channel servicechecks registered successfully
+[1529035520] nerd: Channel opathchecks registered successfully
+[1529035520] nerd: Fully initialized and ready to rock!
+[1529035520] wproc: Successfully registered manager as @wproc with query handler
+[1529035520] wproc: Registry request: name=Core Worker 2879;pid=2879
+[1529035520] wproc: Registry request: name=Core Worker 2878;pid=2878
+[1529035520] wproc: Registry request: name=Core Worker 2877;pid=2877
+[1529035520] wproc: Registry request: name=Core Worker 2876;pid=2876
+[1529035520] Successfully launched command file worker with pid 2880
+[1529035550] wproc: Core Worker 2879: job 0 (pid=2881) timed out. Killing it
+[1529035550] wproc: CHECK job 0 from worker Core Worker 2879 timed out after 30.03s
+[1529035550] wproc:   host=client.itzgeek.local; service=(null);
+[1529035550] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529035550] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529035550] HOST ALERT: client.itzgeek.local;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1529035550] wproc: Core Worker 2879: job 0 (pid=2881): Dormant child reaped
+[1529035598] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529035628] wproc: Core Worker 2877: job 0 (pid=2890) timed out. Killing it
+[1529035628] wproc: CHECK job 0 from worker Core Worker 2877 timed out after 30.03s
+[1529035628] wproc:   host=client.itzgeek.local; service=(null);
+[1529035628] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529035628] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529035628] HOST ALERT: client.itzgeek.local;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1529035628] wproc: Core Worker 2877: job 0 (pid=2890): Dormant child reaped
+[1529035669] Caught SIGTERM, shutting down...
+[1529035669] Successfully shutdown... (PID=2874)
+[1529035669] Event broker module 'NERD' deinitialized successfully.
+[1529035669] Nagios 4.3.4 starting... (PID=2961)
+[1529035669] Local time is Fri Jun 15 04:07:49 UTC 2018
+[1529035669] LOG VERSION: 2.0
+[1529035669] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529035669] qh: core query handler registered
+[1529035669] nerd: Channel hostchecks registered successfully
+[1529035669] nerd: Channel servicechecks registered successfully
+[1529035669] nerd: Channel opathchecks registered successfully
+[1529035669] nerd: Fully initialized and ready to rock!
+[1529035669] wproc: Successfully registered manager as @wproc with query handler
+[1529035669] wproc: Registry request: name=Core Worker 2966;pid=2966
+[1529035669] wproc: Registry request: name=Core Worker 2965;pid=2965
+[1529035669] wproc: Registry request: name=Core Worker 2964;pid=2964
+[1529035669] wproc: Registry request: name=Core Worker 2963;pid=2963
+[1529035669] Successfully launched command file worker with pid 2967
+[1529035670] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;UNKNOWN;SOFT;3;NRPE: Command 'check_swap' not defined
+[1529035674] HOST ALERT: client.itzgeek.local;UP;SOFT;3;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1529035720] SERVICE ALERT: client.itzgeek.local;Root / Partition;UNKNOWN;SOFT;1;NRPE: Command 'check_root' not defined
+[1529035730] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;UNKNOWN;HARD;4;NRPE: Command 'check_swap' not defined
+[1529035730] SERVICE NOTIFICATION: nagiosadmin;client.itzgeek.local;SWAP Uasge;UNKNOWN;notify-service-by-email;NRPE: Command 'check_swap' not defined
+[1529035730] wproc: NOTIFY job 1 from worker Core Worker 2963 is a non-check helper but exited with return code 127
+[1529035730] wproc:   host=client.itzgeek.local; service=SWAP Uasge; contact=nagiosadmin
+[1529035730] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1529035730] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1529035730] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1529035780] SERVICE ALERT: client.itzgeek.local;Root / Partition;UNKNOWN;SOFT;2;NRPE: Command 'check_root' not defined
+[1529035840] SERVICE ALERT: client.itzgeek.local;Root / Partition;UNKNOWN;SOFT;3;NRPE: Command 'check_root' not defined
+[1529035900] SERVICE ALERT: client.itzgeek.local;Root / Partition;UNKNOWN;HARD;4;NRPE: Command 'check_root' not defined
+[1529035900] SERVICE NOTIFICATION: nagiosadmin;client.itzgeek.local;Root / Partition;UNKNOWN;notify-service-by-email;NRPE: Command 'check_root' not defined
+[1529035900] wproc: NOTIFY job 2 from worker Core Worker 2963 is a non-check helper but exited with return code 127
+[1529035900] wproc:   host=client.itzgeek.local; service=Root / Partition; contact=nagiosadmin
+[1529035900] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1529035900] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1529035900] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1529036140] Caught SIGTERM, shutting down...
+[1529036140] Successfully shutdown... (PID=2961)
+[1529036140] Event broker module 'NERD' deinitialized successfully.
+[1529036140] Nagios 4.3.4 starting... (PID=3275)
+[1529036140] Local time is Fri Jun 15 04:15:40 UTC 2018
+[1529036140] LOG VERSION: 2.0
+[1529036140] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529036140] qh: core query handler registered
+[1529036140] nerd: Channel hostchecks registered successfully
+[1529036140] nerd: Channel servicechecks registered successfully
+[1529036140] nerd: Channel opathchecks registered successfully
+[1529036140] nerd: Fully initialized and ready to rock!
+[1529036140] wproc: Successfully registered manager as @wproc with query handler
+[1529036140] wproc: Registry request: name=Core Worker 3280;pid=3280
+[1529036140] wproc: Registry request: name=Core Worker 3279;pid=3279
+[1529036140] wproc: Registry request: name=Core Worker 3278;pid=3278
+[1529036140] wproc: Registry request: name=Core Worker 3277;pid=3277
+[1529036140] Successfully launched command file worker with pid 3281
+[1529036424] Caught SIGTERM, shutting down...
+[1529036424] Successfully shutdown... (PID=3275)
+[1529036424] Event broker module 'NERD' deinitialized successfully.
+[1529036424] Nagios 4.3.4 starting... (PID=3494)
+[1529036424] Local time is Fri Jun 15 04:20:24 UTC 2018
+[1529036424] LOG VERSION: 2.0
+[1529036424] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529036424] qh: core query handler registered
+[1529036424] nerd: Channel hostchecks registered successfully
+[1529036424] nerd: Channel servicechecks registered successfully
+[1529036424] nerd: Channel opathchecks registered successfully
+[1529036424] nerd: Fully initialized and ready to rock!
+[1529036424] wproc: Successfully registered manager as @wproc with query handler
+[1529036424] wproc: Registry request: name=Core Worker 3499;pid=3499
+[1529036424] wproc: Registry request: name=Core Worker 3498;pid=3498
+[1529036424] wproc: Registry request: name=Core Worker 3497;pid=3497
+[1529036424] wproc: Registry request: name=Core Worker 3496;pid=3496
+[1529036424] Successfully launched command file worker with pid 3500
+[1529036425] SERVICE ALERT: client.vny;SWAP Uasge;CRITICAL;SOFT;1;NRPE: Command 'check_swap' not defined
+[1529036485] SERVICE ALERT: client.vny;SWAP Uasge;CRITICAL;SOFT;2;NRPE: Command 'check_swap' not defined
+[1529036545] SERVICE ALERT: client.vny;SWAP Uasge;CRITICAL;SOFT;3;NRPE: Command 'check_swap' not defined
+[1529036605] SERVICE ALERT: client.vny;SWAP Uasge;CRITICAL;HARD;4;NRPE: Command 'check_swap' not defined
+[1529036605] SERVICE NOTIFICATION: nagiosadmin;client.vny;SWAP Uasge;CRITICAL;notify-service-by-email;NRPE: Command 'check_swap' not defined
+[1529036605] wproc: NOTIFY job 1 from worker Core Worker 3498 is a non-check helper but exited with return code 127
+[1529036605] wproc:   host=client.vny; service=SWAP Uasge; contact=nagiosadmin
+[1529036605] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1529036605] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1529036605] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1529036624] SERVICE ALERT: client.vny;Root / Partition;CRITICAL;SOFT;1;NRPE: Command 'check_root' not defined
+[1529036684] SERVICE ALERT: client.vny;Root / Partition;CRITICAL;SOFT;2;NRPE: Command 'check_root' not defined
+[1529036696] Caught SIGTERM, shutting down...
+[1529036696] Successfully shutdown... (PID=3494)
+[1529036696] Event broker module 'NERD' deinitialized successfully.
+[1529036696] Nagios 4.3.4 starting... (PID=3655)
+[1529036696] Local time is Fri Jun 15 04:24:56 UTC 2018
+[1529036696] LOG VERSION: 2.0
+[1529036696] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529036696] qh: core query handler registered
+[1529036696] nerd: Channel hostchecks registered successfully
+[1529036696] nerd: Channel servicechecks registered successfully
+[1529036696] nerd: Channel opathchecks registered successfully
+[1529036696] nerd: Fully initialized and ready to rock!
+[1529036696] wproc: Successfully registered manager as @wproc with query handler
+[1529036696] wproc: Registry request: name=Core Worker 3660;pid=3660
+[1529036696] wproc: Registry request: name=Core Worker 3659;pid=3659
+[1529036696] wproc: Registry request: name=Core Worker 3658;pid=3658
+[1529036696] wproc: Registry request: name=Core Worker 3657;pid=3657
+[1529036696] Successfully launched command file worker with pid 3661
+[1529036744] SERVICE ALERT: client.vny;Root / Partition;CRITICAL;SOFT;3;NRPE: Command 'check_root' not defined
+[1529036778] Caught SIGTERM, shutting down...
+[1529036778] Successfully shutdown... (PID=3655)
+[1529036778] Event broker module 'NERD' deinitialized successfully.
+[1529036778] Nagios 4.3.4 starting... (PID=3740)
+[1529036778] Local time is Fri Jun 15 04:26:18 UTC 2018
+[1529036778] LOG VERSION: 2.0
+[1529036778] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529036778] qh: core query handler registered
+[1529036778] nerd: Channel hostchecks registered successfully
+[1529036778] nerd: Channel servicechecks registered successfully
+[1529036778] nerd: Channel opathchecks registered successfully
+[1529036778] nerd: Fully initialized and ready to rock!
+[1529036778] wproc: Successfully registered manager as @wproc with query handler
+[1529036778] wproc: Registry request: name=Core Worker 3745;pid=3745
+[1529036778] wproc: Registry request: name=Core Worker 3744;pid=3744
+[1529036778] wproc: Registry request: name=Core Worker 3743;pid=3743
+[1529036778] wproc: Registry request: name=Core Worker 3742;pid=3742
+[1529036778] Successfully launched command file worker with pid 3746
+[1529036804] SERVICE ALERT: client.vny;Root / Partition;CRITICAL;HARD;4;NRPE: Command 'check_root' not defined
+[1529036804] SERVICE NOTIFICATION: nagiosadmin;client.vny;Root / Partition;CRITICAL;notify-service-by-email;NRPE: Command 'check_root' not defined
+[1529036804] wproc: NOTIFY job 0 from worker Core Worker 3744 is a non-check helper but exited with return code 127
+[1529036804] wproc:   host=client.vny; service=Root / Partition; contact=nagiosadmin
+[1529036804] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1529036804] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1529036804] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1529036811] Caught SIGTERM, shutting down...
+[1529036811] Successfully shutdown... (PID=3740)
+[1529036811] Event broker module 'NERD' deinitialized successfully.
+[1529036811] Nagios 4.3.4 starting... (PID=3817)
+[1529036811] Local time is Fri Jun 15 04:26:51 UTC 2018
+[1529036811] LOG VERSION: 2.0
+[1529036811] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529036811] qh: core query handler registered
+[1529036811] nerd: Channel hostchecks registered successfully
+[1529036811] nerd: Channel servicechecks registered successfully
+[1529036811] nerd: Channel opathchecks registered successfully
+[1529036811] nerd: Fully initialized and ready to rock!
+[1529036811] wproc: Successfully registered manager as @wproc with query handler
+[1529036811] wproc: Registry request: name=Core Worker 3822;pid=3822
+[1529036811] wproc: Registry request: name=Core Worker 3821;pid=3821
+[1529036811] wproc: Registry request: name=Core Worker 3820;pid=3820
+[1529036811] wproc: Registry request: name=Core Worker 3819;pid=3819
+[1529036811] Successfully launched command file worker with pid 3823
+[1529036876] SERVICE ALERT: client.itzgeek.local;Root / Partition;UNKNOWN;SOFT;1;NRPE: Command 'check_root' not defined
+[1529036936] SERVICE ALERT: client.itzgeek.local;Root / Partition;UNKNOWN;SOFT;2;NRPE: Command 'check_root' not defined
+[1529036983] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;UNKNOWN;SOFT;1;NRPE: Command 'check_swap' not defined
+[1529036995] Caught SIGTERM, shutting down...
+[1529036995] Successfully shutdown... (PID=3817)
+[1529036995] Event broker module 'NERD' deinitialized successfully.
+[1529036995] Nagios 4.3.4 starting... (PID=3933)
+[1529036995] Local time is Fri Jun 15 04:29:55 UTC 2018
+[1529036995] LOG VERSION: 2.0
+[1529036995] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529036995] qh: core query handler registered
+[1529036995] nerd: Channel hostchecks registered successfully
+[1529036995] nerd: Channel servicechecks registered successfully
+[1529036995] nerd: Channel opathchecks registered successfully
+[1529036995] nerd: Fully initialized and ready to rock!
+[1529036995] wproc: Successfully registered manager as @wproc with query handler
+[1529036995] wproc: Registry request: name=Core Worker 3938;pid=3938
+[1529036995] wproc: Registry request: name=Core Worker 3937;pid=3937
+[1529036995] wproc: Registry request: name=Core Worker 3936;pid=3936
+[1529036995] wproc: Registry request: name=Core Worker 3935;pid=3935
+[1529036995] Successfully launched command file worker with pid 3939
+[1529036996] SERVICE ALERT: client.itzgeek.local;Root / Partition;UNKNOWN;SOFT;3;NRPE: Command 'check_root' not defined
+[1529037043] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;UNKNOWN;SOFT;2;NRPE: Command 'check_swap' not defined
+[1529037056] SERVICE ALERT: client.itzgeek.local;Root / Partition;UNKNOWN;HARD;4;NRPE: Command 'check_root' not defined
+[1529037056] SERVICE NOTIFICATION: nagiosadmin;client.itzgeek.local;Root / Partition;UNKNOWN;notify-service-by-email;NRPE: Command 'check_root' not defined
+[1529037056] wproc: NOTIFY job 0 from worker Core Worker 3935 is a non-check helper but exited with return code 127
+[1529037056] wproc:   host=client.itzgeek.local; service=Root / Partition; contact=nagiosadmin
+[1529037056] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1529037056] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1529037056] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1529037065] Caught SIGTERM, shutting down...
+[1529037065] Successfully shutdown... (PID=3933)
+[1529037065] Event broker module 'NERD' deinitialized successfully.
+[1529037065] Nagios 4.3.4 starting... (PID=4021)
+[1529037065] Local time is Fri Jun 15 04:31:05 UTC 2018
+[1529037065] LOG VERSION: 2.0
+[1529037065] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529037065] qh: core query handler registered
+[1529037065] nerd: Channel hostchecks registered successfully
+[1529037065] nerd: Channel servicechecks registered successfully
+[1529037065] nerd: Channel opathchecks registered successfully
+[1529037065] nerd: Fully initialized and ready to rock!
+[1529037065] wproc: Successfully registered manager as @wproc with query handler
+[1529037065] wproc: Registry request: name=Core Worker 4026;pid=4026
+[1529037065] wproc: Registry request: name=Core Worker 4025;pid=4025
+[1529037065] wproc: Registry request: name=Core Worker 4024;pid=4024
+[1529037065] wproc: Registry request: name=Core Worker 4023;pid=4023
+[1529037065] Successfully launched command file worker with pid 4027
+[1529037103] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;UNKNOWN;SOFT;3;NRPE: Command 'check_swap' not defined
+[1529037163] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;UNKNOWN;HARD;4;NRPE: Command 'check_swap' not defined
+[1529037163] SERVICE NOTIFICATION: nagiosadmin;client.itzgeek.local;SWAP Uasge;UNKNOWN;notify-service-by-email;NRPE: Command 'check_swap' not defined
+[1529037163] wproc: NOTIFY job 1 from worker Core Worker 4026 is a non-check helper but exited with return code 127
+[1529037163] wproc:   host=client.itzgeek.local; service=SWAP Uasge; contact=nagiosadmin
+[1529037163] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1529037163] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1529037163] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1529038755] Caught SIGTERM, shutting down...
+[1529038755] Successfully shutdown... (PID=4021)
+[1529038755] Event broker module 'NERD' deinitialized successfully.
+[1529038755] Nagios 4.3.4 starting... (PID=4293)
+[1529038755] Local time is Fri Jun 15 04:59:15 UTC 2018
+[1529038755] LOG VERSION: 2.0
+[1529038755] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529038755] qh: core query handler registered
+[1529038755] nerd: Channel hostchecks registered successfully
+[1529038755] nerd: Channel servicechecks registered successfully
+[1529038755] nerd: Channel opathchecks registered successfully
+[1529038755] nerd: Fully initialized and ready to rock!
+[1529038755] wproc: Successfully registered manager as @wproc with query handler
+[1529038755] wproc: Registry request: name=Core Worker 4298;pid=4298
+[1529038755] wproc: Registry request: name=Core Worker 4297;pid=4297
+[1529038755] wproc: Registry request: name=Core Worker 4296;pid=4296
+[1529038755] wproc: Registry request: name=Core Worker 4295;pid=4295
+[1529038755] Warning: Duplicate definition found for service 'Current Load' on host 'client.itzgeek.local' (config file '/usr/local/nagios/etc/servers/client.itzgeek.local.cfg', starting on line 68)
+[1529038755] Successfully launched command file worker with pid 4299
+[1529038964] Caught SIGTERM, shutting down...
+[1529038964] Successfully shutdown... (PID=4293)
+[1529038964] Event broker module 'NERD' deinitialized successfully.
+[1529038964] Nagios 4.3.4 starting... (PID=4416)
+[1529038964] Local time is Fri Jun 15 05:02:44 UTC 2018
+[1529038964] LOG VERSION: 2.0
+[1529038964] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529038964] qh: core query handler registered
+[1529038964] nerd: Channel hostchecks registered successfully
+[1529038964] nerd: Channel servicechecks registered successfully
+[1529038964] nerd: Channel opathchecks registered successfully
+[1529038964] nerd: Fully initialized and ready to rock!
+[1529038964] wproc: Successfully registered manager as @wproc with query handler
+[1529038964] wproc: Registry request: name=Core Worker 4421;pid=4421
+[1529038964] wproc: Registry request: name=Core Worker 4420;pid=4420
+[1529038964] wproc: Registry request: name=Core Worker 4419;pid=4419
+[1529038964] wproc: Registry request: name=Core Worker 4418;pid=4418
+[1529038964] Warning: Duplicate definition found for service 'Current Load' on host 'client.itzgeek.local' (config file '/usr/local/nagios/etc/servers/client.itzgeek.local.cfg', starting on line 68)
+[1529038964] Successfully launched command file worker with pid 4422
+[1529039461] Caught SIGTERM, shutting down...
+[1529039461] Successfully shutdown... (PID=4416)
+[1529039461] Event broker module 'NERD' deinitialized successfully.
+[1529039461] Nagios 4.3.4 starting... (PID=4742)
+[1529039461] Local time is Fri Jun 15 05:11:01 UTC 2018
+[1529039461] LOG VERSION: 2.0
+[1529039461] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529039461] qh: core query handler registered
+[1529039461] nerd: Channel hostchecks registered successfully
+[1529039461] nerd: Channel servicechecks registered successfully
+[1529039461] nerd: Channel opathchecks registered successfully
+[1529039461] nerd: Fully initialized and ready to rock!
+[1529039461] wproc: Successfully registered manager as @wproc with query handler
+[1529039461] wproc: Registry request: name=Core Worker 4747;pid=4747
+[1529039461] wproc: Registry request: name=Core Worker 4746;pid=4746
+[1529039461] wproc: Registry request: name=Core Worker 4745;pid=4745
+[1529039461] wproc: Registry request: name=Core Worker 4744;pid=4744
+[1529039461] Successfully launched command file worker with pid 4748
+[1529039683] Caught SIGTERM, shutting down...
+[1529039683] Successfully shutdown... (PID=4742)
+[1529039683] Event broker module 'NERD' deinitialized successfully.
+[1529039683] Nagios 4.3.4 starting... (PID=4857)
+[1529039683] Local time is Fri Jun 15 05:14:43 UTC 2018
+[1529039683] LOG VERSION: 2.0
+[1529039683] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529039683] qh: core query handler registered
+[1529039683] nerd: Channel hostchecks registered successfully
+[1529039683] nerd: Channel servicechecks registered successfully
+[1529039683] nerd: Channel opathchecks registered successfully
+[1529039683] nerd: Fully initialized and ready to rock!
+[1529039683] wproc: Successfully registered manager as @wproc with query handler
+[1529039683] wproc: Registry request: name=Core Worker 4862;pid=4862
+[1529039683] wproc: Registry request: name=Core Worker 4861;pid=4861
+[1529039683] wproc: Registry request: name=Core Worker 4860;pid=4860
+[1529039683] wproc: Registry request: name=Core Worker 4859;pid=4859
+[1529039683] Successfully launched command file worker with pid 4863
+[1529039714] wproc: Core Worker 4862: job 0 (pid=4864) timed out. Killing it
+[1529039714] wproc: CHECK job 0 from worker Core Worker 4862 timed out after 30.03s
+[1529039714] wproc:   host=client.itzgeek.local; service=(null);
+[1529039714] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529039714] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529039714] HOST ALERT: client.itzgeek.local;DOWN;SOFT;1;(Host check timed out after 30.03 seconds)
+[1529039714] wproc: Core Worker 4862: job 0 (pid=4864): Dormant child reaped
+[1529039748] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529039770] Caught SIGTERM, shutting down...
+[1529039770] Successfully shutdown... (PID=4857)
+[1529039770] Event broker module 'NERD' deinitialized successfully.
+[1529039770] Nagios 4.3.4 starting... (PID=4965)
+[1529039770] Local time is Fri Jun 15 05:16:10 UTC 2018
+[1529039770] LOG VERSION: 2.0
+[1529039770] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529039770] qh: core query handler registered
+[1529039770] nerd: Channel hostchecks registered successfully
+[1529039770] nerd: Channel servicechecks registered successfully
+[1529039770] nerd: Channel opathchecks registered successfully
+[1529039770] nerd: Fully initialized and ready to rock!
+[1529039770] wproc: Successfully registered manager as @wproc with query handler
+[1529039770] wproc: Registry request: name=Core Worker 4970;pid=4970
+[1529039770] wproc: Registry request: name=Core Worker 4969;pid=4969
+[1529039770] wproc: Registry request: name=Core Worker 4968;pid=4968
+[1529039770] wproc: Registry request: name=Core Worker 4967;pid=4967
+[1529039770] Successfully launched command file worker with pid 4971
+[1529039800] wproc: Core Worker 4970: job 0 (pid=4972) timed out. Killing it
+[1529039800] wproc: CHECK job 0 from worker Core Worker 4970 timed out after 30.03s
+[1529039800] wproc:   host=client.itzgeek.local; service=(null);
+[1529039800] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529039800] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529039800] HOST ALERT: client.itzgeek.local;DOWN;SOFT;3;(Host check timed out after 30.03 seconds)
+[1529039800] wproc: Core Worker 4970: job 0 (pid=4972): Dormant child reaped
+[1529039803] SERVICE ALERT: client.itzgeek.local;Current Load;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529039833] SERVICE ALERT: client.itzgeek.local;Total Processes;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529039833] wproc: Core Worker 4970: job 1 (pid=4980) timed out. Killing it
+[1529039833] wproc: CHECK job 1 from worker Core Worker 4970 timed out after 30.03s
+[1529039833] wproc:   host=client.itzgeek.local; service=(null);
+[1529039833] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529039833] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529039833] HOST ALERT: client.itzgeek.local;DOWN;SOFT;4;(Host check timed out after 30.03 seconds)
+[1529039833] wproc: Core Worker 4970: job 1 (pid=4980): Dormant child reaped
+[1529039893] SERVICE ALERT: client.itzgeek.local;Current Users;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529039923] wproc: Core Worker 4968: job 2 (pid=5013) timed out. Killing it
+[1529039923] wproc: CHECK job 2 from worker Core Worker 4968 timed out after 30.03s
+[1529039923] wproc:   host=client.itzgeek.local; service=(null);
+[1529039923] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529039923] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529039923] HOST ALERT: client.itzgeek.local;DOWN;SOFT;5;(Host check timed out after 30.03 seconds)
+[1529039923] wproc: Core Worker 4968: job 2 (pid=5013): Dormant child reaped
+[1529039983] SERVICE ALERT: client.itzgeek.local;Root / Partition;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529040013] wproc: Core Worker 4968: job 4 (pid=5029) timed out. Killing it
+[1529040013] wproc: CHECK job 4 from worker Core Worker 4968 timed out after 30.03s
+[1529040013] wproc:   host=client.itzgeek.local; service=(null);
+[1529040013] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529040013] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529040013] HOST ALERT: client.itzgeek.local;DOWN;SOFT;6;(Host check timed out after 30.03 seconds)
+[1529040013] wproc: Core Worker 4968: job 4 (pid=5029): Dormant child reaped
+[1529040103] wproc: Core Worker 4970: job 5 (pid=5042) timed out. Killing it
+[1529040103] wproc: CHECK job 5 from worker Core Worker 4970 timed out after 30.03s
+[1529040103] wproc:   host=client.itzgeek.local; service=(null);
+[1529040103] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529040103] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529040103] HOST ALERT: client.itzgeek.local;DOWN;SOFT;7;(Host check timed out after 30.03 seconds)
+[1529040103] wproc: Core Worker 4970: job 5 (pid=5042): Dormant child reaped
+[1529040144] Caught SIGTERM, shutting down...
+[1529040144] Successfully shutdown... (PID=4965)
+[1529040144] Event broker module 'NERD' deinitialized successfully.
+[1529040144] Nagios 4.3.4 starting... (PID=5117)
+[1529040144] Local time is Fri Jun 15 05:22:24 UTC 2018
+[1529040144] LOG VERSION: 2.0
+[1529040144] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529040144] qh: core query handler registered
+[1529040144] nerd: Channel hostchecks registered successfully
+[1529040144] nerd: Channel servicechecks registered successfully
+[1529040144] nerd: Channel opathchecks registered successfully
+[1529040144] nerd: Fully initialized and ready to rock!
+[1529040144] wproc: Successfully registered manager as @wproc with query handler
+[1529040144] wproc: Registry request: name=Core Worker 5122;pid=5122
+[1529040144] wproc: Registry request: name=Core Worker 5121;pid=5121
+[1529040144] wproc: Registry request: name=Core Worker 5120;pid=5120
+[1529040144] wproc: Registry request: name=Core Worker 5119;pid=5119
+[1529040144] Successfully launched command file worker with pid 5123
+[1529040195] Caught SIGTERM, shutting down...
+[1529040195] Successfully shutdown... (PID=5117)
+[1529040195] Event broker module 'NERD' deinitialized successfully.
+[1529040195] Nagios 4.3.4 starting... (PID=5193)
+[1529040195] Local time is Fri Jun 15 05:23:15 UTC 2018
+[1529040195] LOG VERSION: 2.0
+[1529040195] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529040195] qh: core query handler registered
+[1529040195] nerd: Channel hostchecks registered successfully
+[1529040195] nerd: Channel servicechecks registered successfully
+[1529040195] nerd: Channel opathchecks registered successfully
+[1529040195] nerd: Fully initialized and ready to rock!
+[1529040195] wproc: Successfully registered manager as @wproc with query handler
+[1529040195] wproc: Registry request: name=Core Worker 5198;pid=5198
+[1529040195] wproc: Registry request: name=Core Worker 5197;pid=5197
+[1529040195] wproc: Registry request: name=Core Worker 5196;pid=5196
+[1529040195] wproc: Registry request: name=Core Worker 5195;pid=5195
+[1529040195] Successfully launched command file worker with pid 5199
+[1529040205] SERVICE NOTIFICATION: nagiosadmin;client.vny;SWAP Uasge;CRITICAL;notify-service-by-email;NRPE: Command 'check_swap' not defined
+[1529040205] wproc: NOTIFY job 0 from worker Core Worker 5196 is a non-check helper but exited with return code 127
+[1529040205] wproc:   host=client.vny; service=SWAP Uasge; contact=nagiosadmin
+[1529040205] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1529040205] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1529040205] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1529040225] wproc: Core Worker 5198: job 0 (pid=5200) timed out. Killing it
+[1529040225] wproc: CHECK job 0 from worker Core Worker 5198 timed out after 30.02s
+[1529040225] wproc:   host=client.itzgeek.local; service=(null);
+[1529040225] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529040225] Warning: Check of host 'client.itzgeek.local' timed out after 30.02 seconds
+[1529040225] HOST ALERT: client.itzgeek.local;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1529040225] wproc: Core Worker 5198: job 0 (pid=5200): Dormant child reaped
+[1529040254] Caught SIGTERM, shutting down...
+[1529040254] Successfully shutdown... (PID=5193)
+[1529040254] Event broker module 'NERD' deinitialized successfully.
+[1529040254] Nagios 4.3.4 starting... (PID=5275)
+[1529040254] Local time is Fri Jun 15 05:24:14 UTC 2018
+[1529040254] LOG VERSION: 2.0
+[1529040254] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529040254] qh: core query handler registered
+[1529040254] nerd: Channel hostchecks registered successfully
+[1529040254] nerd: Channel servicechecks registered successfully
+[1529040254] nerd: Channel opathchecks registered successfully
+[1529040254] nerd: Fully initialized and ready to rock!
+[1529040254] wproc: Successfully registered manager as @wproc with query handler
+[1529040254] wproc: Registry request: name=Core Worker 5280;pid=5280
+[1529040254] wproc: Registry request: name=Core Worker 5279;pid=5279
+[1529040254] wproc: Registry request: name=Core Worker 5278;pid=5278
+[1529040254] wproc: Registry request: name=Core Worker 5277;pid=5277
+[1529040254] Successfully launched command file worker with pid 5281
+[1529040315] SERVICE ALERT: client.itzgeek.local;Current Load;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529040315] wproc: Core Worker 5280: job 1 (pid=5289) timed out. Killing it
+[1529040315] wproc: CHECK job 1 from worker Core Worker 5280 timed out after 30.03s
+[1529040315] wproc:   host=client.itzgeek.local; service=(null);
+[1529040315] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529040315] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529040315] HOST ALERT: client.itzgeek.local;DOWN;SOFT;2;(Host check timed out after 30.03 seconds)
+[1529040315] wproc: Core Worker 5280: job 1 (pid=5289): Dormant child reaped
+[1529040345] SERVICE ALERT: client.itzgeek.local;Total Processes;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529040375] wproc: Core Worker 5277: job 1 (pid=5293) timed out. Killing it
+[1529040375] wproc: CHECK job 1 from worker Core Worker 5277 timed out after 30.03s
+[1529040375] wproc:   host=client.itzgeek.local; service=(null);
+[1529040375] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529040375] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529040375] HOST ALERT: client.itzgeek.local;DOWN;SOFT;3;(Host check timed out after 30.03 seconds)
+[1529040375] wproc: Core Worker 5277: job 1 (pid=5293): Dormant child reaped
+[1529040404] SERVICE NOTIFICATION: nagiosadmin;client.vny;Root / Partition;CRITICAL;notify-service-by-email;NRPE: Command 'check_root' not defined
+[1529040404] wproc: NOTIFY job 2 from worker Core Worker 5277 is a non-check helper but exited with return code 127
+[1529040404] wproc:   host=client.vny; service=Root / Partition; contact=nagiosadmin
+[1529040404] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1529040404] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1529040404] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1529040405] SERVICE ALERT: client.itzgeek.local;Current Users;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529040435] wproc: Core Worker 5280: job 3 (pid=5302) timed out. Killing it
+[1529040435] wproc: CHECK job 3 from worker Core Worker 5280 timed out after 30.03s
+[1529040435] wproc:   host=client.itzgeek.local; service=(null);
+[1529040435] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529040435] Warning: Check of host 'client.itzgeek.local' timed out after 30.03 seconds
+[1529040435] HOST ALERT: client.itzgeek.local;DOWN;SOFT;4;(Host check timed out after 30.03 seconds)
+[1529040435] wproc: Core Worker 5280: job 3 (pid=5302): Dormant child reaped
+[1529040495] SERVICE ALERT: client.itzgeek.local;Root / Partition;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529040497] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;CRITICAL;SOFT;1;CHECK_NRPE: Socket timeout after 30 seconds.
+[1529040525] wproc: Core Worker 5279: job 4 (pid=5309) timed out. Killing it
+[1529040525] wproc: CHECK job 4 from worker Core Worker 5279 timed out after 30.01s
+[1529040525] wproc:   host=client.itzgeek.local; service=(null);
+[1529040525] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1529040525] Warning: Check of host 'client.itzgeek.local' timed out after 30.01 seconds
+[1529040525] HOST ALERT: client.itzgeek.local;DOWN;SOFT;5;(Host check timed out after 30.01 seconds)
+[1529040525] wproc: Core Worker 5279: job 4 (pid=5309): Dormant child reaped
+[1529040576] Caught SIGTERM, shutting down...
+[1529040576] Successfully shutdown... (PID=5275)
+[1529040576] Event broker module 'NERD' deinitialized successfully.
+[1529040576] Nagios 4.3.4 starting... (PID=5386)
+[1529040576] Local time is Fri Jun 15 05:29:36 UTC 2018
+[1529040576] LOG VERSION: 2.0
+[1529040576] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1529040576] qh: core query handler registered
+[1529040576] nerd: Channel hostchecks registered successfully
+[1529040576] nerd: Channel servicechecks registered successfully
+[1529040576] nerd: Channel opathchecks registered successfully
+[1529040576] nerd: Fully initialized and ready to rock!
+[1529040576] wproc: Successfully registered manager as @wproc with query handler
+[1529040576] wproc: Registry request: name=Core Worker 5391;pid=5391
+[1529040576] wproc: Registry request: name=Core Worker 5390;pid=5390
+[1529040576] wproc: Registry request: name=Core Worker 5389;pid=5389
+[1529040576] wproc: Registry request: name=Core Worker 5388;pid=5388
+[1529040576] Successfully launched command file worker with pid 5392
+[1529040589] HOST ALERT: client.itzgeek.local;UP;SOFT;6;PING OK - Packet loss = 0%, RTA = 0.48 ms
+[1529040592] SERVICE ALERT: client.itzgeek.local;Current Load;OK;SOFT;3;OK - load average: 0.00, 0.01, 0.05
+[1529040599] SERVICE ALERT: client.itzgeek.local;Root / Partition;UNKNOWN;SOFT;3;NRPE: Command 'check_root' not defined
+[1529040618] SERVICE ALERT: client.itzgeek.local;Current Users;OK;SOFT;3;USERS OK - 1 users currently logged in
+[1529040632] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;UNKNOWN;SOFT;3;NRPE: Command 'check_swap' not defined
+[1529040632] SERVICE ALERT: client.itzgeek.local;Total Processes;OK;SOFT;3;PROCS OK: 82 processes
+[1529040659] SERVICE ALERT: client.itzgeek.local;Root / Partition;UNKNOWN;HARD;4;NRPE: Command 'check_root' not defined
+[1529040659] SERVICE NOTIFICATION: nagiosadmin;client.itzgeek.local;Root / Partition;UNKNOWN;notify-service-by-email;NRPE: Command 'check_root' not defined
+[1529040659] wproc: NOTIFY job 2 from worker Core Worker 5389 is a non-check helper but exited with return code 127
+[1529040659] wproc:   host=client.itzgeek.local; service=Root / Partition; contact=nagiosadmin
+[1529040659] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1529040659] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1529040659] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1529040692] SERVICE ALERT: client.itzgeek.local;SWAP Uasge;UNKNOWN;HARD;4;NRPE: Command 'check_swap' not defined
+[1529040692] SERVICE NOTIFICATION: nagiosadmin;client.itzgeek.local;SWAP Uasge;UNKNOWN;notify-service-by-email;NRPE: Command 'check_swap' not defined
+[1529040692] wproc: NOTIFY job 3 from worker Core Worker 5391 is a non-check helper but exited with return code 127
+[1529040692] wproc:   host=client.itzgeek.local; service=SWAP Uasge; contact=nagiosadmin
+[1529040692] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1529040692] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1529040692] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1529040784] Warning: Return code of 255 for check of service 'Current Load' on host 'client.vny' was out of bounds.
+[1529040784] SERVICE ALERT: client.vny;Current Load;CRITICAL;SOFT;1;(Return code of 255 is out of bounds : (No output on stdout) stderr: connect to address 172.31.0.30 port 5666: No route to host))
+[1529040787] HOST ALERT: client.vny;DOWN;SOFT;1;CRITICAL - Host Unreachable (172.31.0.30)
+[1529040808] Warning: Return code of 255 for check of service 'SWAP Uasge' on host 'client.vny' was out of bounds.
+[1529040844] Warning: Return code of 255 for check of service 'Current Load' on host 'client.vny' was out of bounds.
+[1529040847] HOST ALERT: client.vny;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.0.30)
+[1529040867] Warning: Return code of 255 for check of service 'Root / load' on host 'client.vny' was out of bounds.
+[1529040867] SERVICE ALERT: client.vny;Root / load;CRITICAL;SOFT;1;(Return code of 255 is out of bounds : (No output on stdout) stderr: connect to address 172.31.0.30 port 5666: No route to host))
+[1529040870] HOST ALERT: client.vny;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.0.30)
+[1529040927] Warning: Return code of 255 for check of service 'Root / load' on host 'client.vny' was out of bounds.
+[1529040930] HOST ALERT: client.vny;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.0.30)
+[1529040993] HOST ALERT: client.vny;DOWN;SOFT;5;CRITICAL - Host Unreachable (172.31.0.30)
+[1529041007] Warning: Return code of 255 for check of service 'Root / Partition' on host 'client.vny' was out of bounds.
+[1529041057] HOST ALERT: client.vny;DOWN;SOFT;6;CRITICAL - Host Unreachable (172.31.0.30)
+[1529041108] Warning: Return code of 255 for check of service 'SWAP Uasge' on host 'client.vny' was out of bounds.
+[1529041120] HOST ALERT: client.vny;DOWN;SOFT;7;CRITICAL - Host Unreachable (172.31.0.30)
+[1529041144] Warning: Return code of 255 for check of service 'Current Load' on host 'client.vny' was out of bounds.
+[1529041183] HOST ALERT: client.vny;DOWN;SOFT;8;CRITICAL - Host Unreachable (172.31.0.30)
+[1529041227] Warning: Return code of 255 for check of service 'Root / load' on host 'client.vny' was out of bounds.
+[1529041246] HOST ALERT: client.vny;DOWN;SOFT;9;CRITICAL - Host Unreachable (172.31.0.30)
+[1529041307] Warning: Return code of 255 for check of service 'Root / Partition' on host 'client.vny' was out of bounds.
+[1529041307] HOST ALERT: client.vny;DOWN;HARD;10;CRITICAL - Host Unreachable (172.31.0.30)
+[1529041408] Warning: Return code of 255 for check of service 'SWAP Uasge' on host 'client.vny' was out of bounds.
+[1529041444] Warning: Return code of 255 for check of service 'Current Load' on host 'client.vny' was out of bounds.
+[1529041444] SERVICE ALERT: client.vny;Current Load;CRITICAL;HARD;4;(Return code of 255 is out of bounds : (No output on stdout) stderr: connect to address 172.31.0.30 port 5666: No route to host))
+[1529041527] Warning: Return code of 255 for check of service 'Root / load' on host 'client.vny' was out of bounds.
+[1529041527] SERVICE ALERT: client.vny;Root / load;CRITICAL;HARD;4;(Return code of 255 is out of bounds : (No output on stdout) stderr: connect to address 172.31.0.30 port 5666: No route to host))
